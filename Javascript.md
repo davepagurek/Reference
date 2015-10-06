@@ -76,8 +76,8 @@ _.extend({a: 1}, {b: 2})
 // {a: 1, b: 2}
 ```
 
-### 
-```
+### Function efficiency
+```javascript
 var fibonacci = _.memoize(function(n) {
   return n < 2 ? n: fibonacci(n - 1) + fibonacci(n - 2);
 });
